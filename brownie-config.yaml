@@ -1,0 +1,13 @@
+compiler:
+  solc:
+    remappings:
+      - '@openzeppelin=node_modules/@openzeppelin'
+      - '@uniswap=node_modules/@uniswap'
+      - 'solmate=node_modules/solmate'
+
+networks:
+  development:
+    host: http://127.0.0.1:8545
+    gas_price: auto
+    timeout: 1200
+    verify: False
